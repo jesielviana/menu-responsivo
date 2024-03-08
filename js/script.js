@@ -1,4 +1,4 @@
-function toggleMenu() {
-  const divMenu = document.querySelector('.menu');
-  divMenu.classList.toggle('mobile');
+function toggleNav(){
+  const nav =  document.querySelector('nav');
+  nav.classList.toggle('mobile');
 }
